@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SnapFolio Clone</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+  <!-- Hamburger menu -->
+  <div class="hamburger" id="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="menu-content">
+      <ul>
+        <li><a href="#"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#resume"><i class="fas fa-file"></i> RESUME</a></li>
+        <li><a href="#portfolio"><i class="fas fa-image"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="fas fa-server"></i> Services</a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="menu-social-icons">
+        
+        <a href="https://www.facebook.com/iandoaank.iandoaank.5"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/toomsx_x/"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/6285741155589"><i class="fab fa-whatsapp"></i></a>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1><span class="white">Porto</span><span class="gold">Folio</span></h1>
+    <h2>Tommy.Hermawan</h2>
+    <p class="subtitle">I'm a <span class="highlight">Web Designer</span></p>
+    <p class="description">
+      Ingin Menjadi Pogrammer Handal Tapi Enggan Untuk Mengoding. 
+    </p>
+
+    <div class="buttons">
+      <a href="#portfolio" class="btn filled">View My Work</a>
+      <a href="#contact" class="btn outlined">Get In Touch</a>
+    </div>
+
+   <!-- <div class="social-icons">
+   <!--    <a href="#"><i class="fab fa-dribbble"></i></a>
+   <!--    <a href="#"><i class="fab fa-behance"></i></a>
+  <!--     <a href="#"><i class="fab fa-github"></i></a>
+  <!--     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+ <!--    </div> -->
+
+    <div class="profile-pic">
+      <img src="img/profil/tom.jpg" alt="Profile" />
+      <div class="profile-badge">
+        <i class="fa-solid fa-check"></i>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Me Section -->
+<section class="about" id="about">
+  <div class="container about-content">
+    <h2 class="section-title">About <span class="gold">Me</span></h2>
+    <p class="about-text">
+      Halo! Saya <strong>Tommy Hermawan</strong>, seorang web designer yang menyukai tampilan bersih dan interaktif. 
+      Walaupun kadang bilang <em>"enggan untuk ngoding"</em>, sebenarnya saya menikmati proses menciptakan antarmuka digital yang 
+      <span class="highlight">menarik</span> dan <span class="highlight">user-friendly</span>.
+    </p>
+
+    <div class="about-info">
+      <div><i class="fa fa-user"></i> <strong>Nama:</strong> Tommy Hermawan</div>
+      <div><i class="fa fa-envelope"></i> <strong>Email:</strong> tommyhermawan2003@gmail.com</div>
+      <div><i class="fa fa-map-marker"></i> <strong>Lokasi:</strong> Indonesia</div>
+    </div>
+
+    <a href="#resume" class="btn filled"><i class="fa fa-file"></i> Lihat Resume</a>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section class="resume" id="resume">
+  <div class="container">
+    <h2 class="section-title">My <span class="gold">Resume</span></h2>
+
+    <div class="resume-content">
+      <div class="resume-item">
+        <h3 class="resume-title">Pendidikan</h3>
+        <div class="resume-box">
+          <h4>SMA</h4>
+          <span class="resume-year">2018 - 2022</span>
+          <p>Sekolah Terakhir Saya yang tidak cocok dengan kemauan saya</p>
+        </div>
+      </div>
+
+      <div class="resume-item">
+        <h3 class="resume-title">Pengalaman</h3>
+        <div class="resume-box">
+          <h4>Web Designer Freelance</h4>
+          <span class="resume-year">2024 - Sekarang</span>
+          <p>Membantu UMKM dan startup membangun tampilan website profesional dan mobile-friendly.</p>
+        </div>
+        <div class="resume-box">
+          <h4>Intern UI Designer</h4>
+          <span class="resume-year">2024 (3 bulan)</span>
+          <p>Bekerja sama dengan tim pengembang untuk mendesain antarmuka aplikasi berbasis web.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="section-title">My <span class="gold">Portfolio</span></h2>
+    <p class="about-text">
+      Berikut adalah beberapa proyek desain dan pengembangan web yang pernah saya kerjakan.
+    </p>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="img/project/project1.jpg" alt="Project 1" />
+        <div class="portfolio-overlay">
+          <h4>TopUp Game UMKM</h4>
+          <p>BibitGames website untuk bisnis TopUp Game</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+  <div class="container">
+    <h2 class="section-title">My <span class="gold">Services</span></h2>
+    <p class="about-text">
+      Saya menyediakan berbagai layanan profesional untuk menunjang kebutuhan digital Anda.
+    </p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-code service-icon"></i>
+        <h3>Web Development</h3>
+        <p>Membangun website dinamis & responsif menggunakan HTML, CSS, JS & Laravel.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-paint-brush service-icon"></i>
+        <h3>UI/UX Design</h3>
+        <p>Desain antarmuka yang bersih, interaktif, dan ramah pengguna untuk aplikasi dan website.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fas fa-mobile-alt service-icon"></i>
+        <h3>Web Design</h3>
+        <p>Desain Desain Website modern dan sesuai tren terbaru.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Get In <span class="gold">Touch</span></h2>
+    <p class="about-text">Hubungi saya untuk kolaborasi, proyek, atau pertanyaan lainnya.</p>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> tommyhermawan2003@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +62 857-4115-5589</p>
+        <p><i class="fas fa-map-marker-alt"></i> Tegal, Indonesia</p>
+      </div>
+
+      <form class="contact-form" id="formKontak" action="https://formspree.io/f/mldljkde" method="POST">
+        <input type="text" name="name" placeholder="Nama" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" rows="5" placeholder="Pesan..." required></textarea>
+        <button type="submit" class="btn filled">
+          <i class="fa fa-paper-plane"></i> Kirim Pesan
+        </button>
+      </form>
+    </div>
+
+    <p id="successMsg" style="color: #c19c67; margin-top: 15px; display: none;">
+      Pesan berhasil dikirim! Terima kasih 
+    </p>
+  </div>
+</section>
+
+  <!-- Script -->
+  	<script>
+  const form = document.getElementById("formKontak");
+  const successMsg = document.getElementById("successMsg");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      successMsg.style.display = "block";
+      form.reset();
+    } else {
+      successMsg.innerText = "Gagal mengirim pesan. Coba lagi.";
+      successMsg.style.display = "block";
+    }
+  });
+</script>
+  
+  <script src="script.js"></script>
+</body>
+</html>
